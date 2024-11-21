@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		79E249BE2CEF96FA0033CB1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E249A42CEF96F80033CB1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E249AB2CEF96F80033CB1D;
+			remoteInfo = notizen;
+		};
+		79E249C82CEF96FA0033CB1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E249A42CEF96F80033CB1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E249AB2CEF96F80033CB1D;
+			remoteInfo = notizen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79E249AC2CEF96F80033CB1D /* notizen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notizen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E249BD2CEF96FA0033CB1D /* notizenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notizenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E249C72CEF96FA0033CB1D /* notizenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notizenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		79E249AE2CEF96F80033CB1D /* notizen */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = notizen;
+			sourceTree = "<group>";
+		};
+		79E249C02CEF96FA0033CB1D /* notizenTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = notizenTests;
+			sourceTree = "<group>";
+		};
+		79E249CA2CEF96FA0033CB1D /* notizenUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = notizenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E249A92CEF96F80033CB1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E249BA2CEF96FA0033CB1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E249C42CEF96FA0033CB1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E249A32CEF96F80033CB1D = {
+			isa = PBXGroup;
+			children = (
+				79E249AE2CEF96F80033CB1D /* notizen */,
+				79E249C02CEF96FA0033CB1D /* notizenTests */,
+				79E249CA2CEF96FA0033CB1D /* notizenUITests */,
+				79E249AD2CEF96F80033CB1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E249AD2CEF96F80033CB1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E249AC2CEF96F80033CB1D /* notizen.app */,
+				79E249BD2CEF96FA0033CB1D /* notizenTests.xctest */,
+				79E249C72CEF96FA0033CB1D /* notizenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E249AB2CEF96F80033CB1D /* notizen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E249D12CEF96FA0033CB1D /* Build configuration list for PBXNativeTarget "notizen" */;
+			buildPhases = (
+				79E249A82CEF96F80033CB1D /* Sources */,
+				79E249A92CEF96F80033CB1D /* Frameworks */,
+				79E249AA2CEF96F80033CB1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				79E249AE2CEF96F80033CB1D /* notizen */,
+			);
+			name = notizen;
+			packageProductDependencies = (
+			);
+			productName = notizen;
+			productReference = 79E249AC2CEF96F80033CB1D /* notizen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E249BC2CEF96FA0033CB1D /* notizenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E249D42CEF96FA0033CB1D /* Build configuration list for PBXNativeTarget "notizenTests" */;
+			buildPhases = (
+				79E249B92CEF96FA0033CB1D /* Sources */,
+				79E249BA2CEF96FA0033CB1D /* Frameworks */,
+				79E249BB2CEF96FA0033CB1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E249BF2CEF96FA0033CB1D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				79E249C02CEF96FA0033CB1D /* notizenTests */,
+			);
+			name = notizenTests;
+			packageProductDependencies = (
+			);
+			productName = notizenTests;
+			productReference = 79E249BD2CEF96FA0033CB1D /* notizenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79E249C62CEF96FA0033CB1D /* notizenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E249D72CEF96FA0033CB1D /* Build configuration list for PBXNativeTarget "notizenUITests" */;
+			buildPhases = (
+				79E249C32CEF96FA0033CB1D /* Sources */,
+				79E249C42CEF96FA0033CB1D /* Frameworks */,
+				79E249C52CEF96FA0033CB1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E249C92CEF96FA0033CB1D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				79E249CA2CEF96FA0033CB1D /* notizenUITests */,
+			);
+			name = notizenUITests;
+			packageProductDependencies = (
+			);
+			productName = notizenUITests;
+			productReference = 79E249C72CEF96FA0033CB1D /* notizenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E249A42CEF96F80033CB1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					79E249AB2CEF96F80033CB1D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					79E249BC2CEF96FA0033CB1D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 79E249AB2CEF96F80033CB1D;
+					};
+					79E249C62CEF96FA0033CB1D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 79E249AB2CEF96F80033CB1D;
+					};
+				};
+			};
+			buildConfigurationList = 79E249A72CEF96F80033CB1D /* Build configuration list for PBXProject "notizen" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E249A32CEF96F80033CB1D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 79E249AD2CEF96F80033CB1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E249AB2CEF96F80033CB1D /* notizen */,
+				79E249BC2CEF96FA0033CB1D /* notizenTests */,
+				79E249C62CEF96FA0033CB1D /* notizenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E249AA2CEF96F80033CB1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E249BB2CEF96FA0033CB1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E249C52CEF96FA0033CB1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E249A82CEF96F80033CB1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E249B92CEF96FA0033CB1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E249C32CEF96FA0033CB1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E249BF2CEF96FA0033CB1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E249AB2CEF96F80033CB1D /* notizen */;
+			targetProxy = 79E249BE2CEF96FA0033CB1D /* PBXContainerItemProxy */;
+		};
+		79E249C92CEF96FA0033CB1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E249AB2CEF96F80033CB1D /* notizen */;
+			targetProxy = 79E249C82CEF96FA0033CB1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79E249CF2CEF96FA0033CB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79E249D02CEF96FA0033CB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		79E249D22CEF96FA0033CB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = notizen/notizen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"notizen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rocketcode.notizen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		79E249D32CEF96FA0033CB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = notizen/notizen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"notizen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rocketcode.notizen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		79E249D52CEF96FA0033CB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rocketcode.notizenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/notizen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/notizen";
+			};
+			name = Debug;
+		};
+		79E249D62CEF96FA0033CB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rocketcode.notizenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/notizen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/notizen";
+			};
+			name = Release;
+		};
+		79E249D82CEF96FA0033CB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rocketcode.notizenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = notizen;
+			};
+			name = Debug;
+		};
+		79E249D92CEF96FA0033CB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rocketcode.notizenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = notizen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E249A72CEF96F80033CB1D /* Build configuration list for PBXProject "notizen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E249CF2CEF96FA0033CB1D /* Debug */,
+				79E249D02CEF96FA0033CB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E249D12CEF96FA0033CB1D /* Build configuration list for PBXNativeTarget "notizen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E249D22CEF96FA0033CB1D /* Debug */,
+				79E249D32CEF96FA0033CB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E249D42CEF96FA0033CB1D /* Build configuration list for PBXNativeTarget "notizenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E249D52CEF96FA0033CB1D /* Debug */,
+				79E249D62CEF96FA0033CB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E249D72CEF96FA0033CB1D /* Build configuration list for PBXNativeTarget "notizenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E249D82CEF96FA0033CB1D /* Debug */,
+				79E249D92CEF96FA0033CB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E249A42CEF96F80033CB1D /* Project object */;
+}
